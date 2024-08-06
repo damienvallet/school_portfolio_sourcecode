@@ -1,0 +1,23 @@
+##
+#  File Name: docker-compose.yaml
+#  Description:  Configuration pour deployer le DokuWiki avec Docker Compose
+#  Author: Damien Vallet
+#  Version: 1.0
+#  Date: 2024
+#  License: Created for UOR course
+#  Language: YAML
+##
+
+version: '3.8' # version de docker-compose
+services:       
+  dokuwiki:   # nom du service ici docuWiki
+    image: docker.io/bitnami/dokuwiki:20240206 # image docker
+    ports:
+      - '80:8080'   # port de l'application
+      - '443:8443'  
+    volumes: # volume pour la persistance des données
+      - './srcdocuwiki:/bitnami/dokuwiki2' 
+    environment: # variables d'environnement
+      - DOKUWIKI_PASSWORD=toto123
+      - DOKUWIKI_USERNAME=admin
+      - DOKUWIKI_WIKI_NAME= docuWiki Sound Design

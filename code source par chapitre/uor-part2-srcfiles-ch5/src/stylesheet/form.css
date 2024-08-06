@@ -1,0 +1,114 @@
+/* *******************************************************
+* Nom ......... : form.css
+* Rôle ........ : feuille css pour le formulaire
+* Auteur ...... : Damien Vallet
+* Version ..... : V0.1 du 2024
+* Licence ..... : réalisé dans le cadre du cours de UOR
+* Compilation : interprété
+********************************************************* */
+
+/* style */
+.formulaire,
+.radio-container {
+  /* mode d'affichage */
+  display: flex;
+
+  /* direction de la flexbox */
+  flex-direction: column;
+
+  /* Aligner les éléments du formulaire verticalement */
+  align-items: center;
+
+  /* aligner les éléments du formulaire horizontalement */
+  justify-content: center;
+
+  /* marge en haut */
+  margin-top: 2rem;
+
+  /* Marge extérieure */
+  margin: auto;
+
+  /* Largeur du formulaire */
+  width: 100%;
+
+  /* Limite de la largeur du formulaire */
+  max-width: 600px;
+
+  /* Ajout de marge intérieure */
+  padding: 1rem;
+
+  /* Ajout d'une couleur de fond */
+  background-color: #f8f8f8;
+
+  /* Ajout de coins arrondis */
+  border-radius: 8px;
+
+  /* Ajout d'une ombre */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.radio-container {
+  display: flex;
+
+  /* direction de la flexbox */
+  flex-direction: row;
+
+  /* aligner les éléments verticalement */
+  align-items: center;
+
+  /* aligner les éléments horizontalement */
+  justify-content: center;
+}
+
+/* style des boutons radio */
+.radio-container input[type="radio"] {
+  /* Ajout marge extérieure */
+  margin: 0 10px;
+}
+
+/* style des formulaires email, text et textarea */
+.formulaire input[type="text"],
+.formulaire input[type="email"],
+.formulaire textarea {
+  /* largeur des champs */
+  width: 100%;
+
+  /* Ajout de marge intérieure */
+  padding: 0.5rem;
+
+  /* Ajout marges extérieures */
+  margin-bottom: 1rem;
+
+  /* Ajout d'une bordure */
+  border: 1px solid #ddd;
+
+  /* Taille des arrondis de la bordure */
+  border-radius: 4px;
+}
+
+/* style du bouton submit */
+.formulaire input[type="submit"] {
+  /* Ajout d'une marge intérieure */
+  padding: 0.5rem 1rem;
+
+  /* Définition de la couleur de fond*/
+  background-color: #007BFF;
+
+  /* Définition de la couleur du texte*/
+  color: white;
+
+  /* Retrait de la bordure */
+  border: none;
+
+  /* Taille des arrondis */
+  border-radius: 4px;
+
+  /* Forme du curseur */
+  cursor: pointer;
+}
+
+/* style du bouton submit au survol */
+.formulaire input[type="submit"]:hover {
+  /* Définir la couleur de fond */
+  background-color: #0056b3;
+}

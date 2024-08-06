@@ -1,0 +1,147 @@
+/* *******************************************************
+* Nom ......... : style.css
+* Rôle ........ : feuille css pour le site web avec Bootstrap
+* Auteur ...... : Damien Vallet
+* Version ..... : V0.1 du 2024
+* Licence ..... : réalisé dans le cadre du cours de UOR
+* Compilation : interprété
+********************************************************* */
+
+/* style de la balise body */
+body {
+  /* on definit la famille de la police a utiliser*/
+  font-family: var(--bs-font-sans-serif);
+
+  /* on definit la taille de la police */
+  font-size: 1rem;
+
+  /* on définit l'épaisseur*/
+  font-weight: 400;
+
+  /* on definit la hauteur de ligne */
+  line-height: 1.5;
+
+  /* on definit la couleur de fond */
+  background-color: var(--bs-light);
+
+  /* on definit une image de fond avec un dégradé linéaire */
+  background-image: radial-gradient(#7372600a, --bs-light);
+}
+
+/* style de la balise a */
+a {
+  /* on definit la couleur du texte */
+  color: var(--bs-indigo);
+
+  /* on ajoute un soulignement */
+  text-decoration: underline;
+
+  /* on definit le pointeur de la souris */
+  cursor: pointer;
+}
+
+/* style du comportement hover de la balise a */
+a:hover {
+  /* on definit la couleur du texte */
+  color: #393148;
+
+  /* on enlève les décorations */
+  text-decoration: none;
+}
+
+/* comportement hover des lien de la barre de navigation */
+.nav-link:hover {
+  /* ajoute un soulignement */
+  text-decoration: underline;
+
+  /* change la couleur du texte */
+  color: #393148;
+}
+
+/* classe .lettrine */
+.lettrine {
+  /* on definit la police */
+  font-family: garamond, serif;
+
+  /* on definit la taille de la police */
+  font-size: 270%;
+
+  /* on definit la position du texte */
+  float: left;
+
+  /* on definit la marge */
+  margin: -0.20em 0px -0.20em 0px;
+}
+
+/* classe .hero-title */
+.hero-title {
+  /* on definit la taille de la police */
+  font-size: 3.5rem;
+
+  /* on rend la police en gras */
+  font-weight: 700;
+
+  /* on definit la couleur du texte */
+  color: #F2EB6F;
+
+  /* on centre le texte */
+  text-align: center;
+
+  /* on definit la famille de la police a utiliser*/
+  font-family: Garamond, 'Times New Roman', Times, serif;
+}
+
+.title {
+  /* centre le texte */
+  text-align: center;
+
+  /* on definit la taille de la police */
+  font-size: 1.5rem;
+
+  /* on rend la police en gras */
+  font-weight: 700;
+
+  /* on definit la couleur du texte */
+  color: #5400F5;
+
+  /* on ajoute un soulignement */
+  text-decoration: underline;
+
+  /* on definit la famille de la police a utiliser*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* style des icones */
+.socials-icons {
+  /* on met les icones en ligne */
+  display: inline-block;
+}
+
+/* inversion de la couleur de l'image */
+img[src="../img/soundwave.svg"] {
+  filter: invert(1);
+}
+
+/* style de la classe .header-icons */
+.header-icons {
+  /* on met les icones en ligne */
+  display: flex;
+
+  /* on centre les icones */
+  align-items: center;
+
+  /* on definit la marge à droite*/
+  margin-right: 1rem;
+
+  /* on definit la marge en haut*/
+  margin-top: 0.3rem;
+}
+
+/* style du gradient */
+.custom-gradient {
+  /* on definit le dégradé radial */
+  background: radial-gradient(circle, rgb(238, 236, 204) 0%, var(--bs-light) 100%);
+
+  /* on definit la taille du flou avec un filtre*/
+  backdrop-filter: blur(80px);
+}

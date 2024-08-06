@@ -1,0 +1,30 @@
+{
+    // nom du conteneur de développement
+    "name": "Python 3",
+
+    // configuration de l'image Docker
+    "build": {
+        // on choisit l'image de base
+        "dockerfile": "Dockerfile",
+
+        // on ajoute des arguments pour le Dockerfile
+        "context": "..",
+    },
+    
+    // reglages à appliquer au conteneur
+    "settings": {
+        // on choisit le shell à utiliser par défaut dans le terminal
+        "terminal.integrated.shell.linux": "/bin/bash",
+    },
+
+    // liste des extensions VS Code à installer dans le conteneur
+    "extensions": [
+        "ms-python.python"
+    ],
+
+    // liste des commandes à exécuter après la création du conteneur
+    "postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
+
+    // utilisateur par défaut pour lancer des commandes dans le conteneur
+    "remoteUser": "root"
+}
