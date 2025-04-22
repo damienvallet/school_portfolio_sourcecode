@@ -8,13 +8,3 @@ In this repo, you'll find:
 
 ---
 
-
-# Repo pour IED Paris 8
-
----
-
-
-Dans ce repo, on trouvera :
-- l'intégralité des codes sources et des éléments décrie dans le .pdf (**dossier code source par chapitre**).
-- Le projet final (**dv-portfolio**)
-- L'archive regroupant tous les éléments
