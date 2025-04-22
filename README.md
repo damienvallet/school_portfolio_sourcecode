@@ -5,6 +5,7 @@ In this repo, you'll find:
 - The final project (**dv-portfolio**)
 - The archive containing all the elements
 
+
 ---
 
 
@@ -12,8 +13,6 @@ In this repo, you'll find:
 
 ---
 
-Nom : Vallet <br>
-Prenom : Damien
 
 Dans ce repo, on trouvera :
 - l'intégralité des codes sources et des éléments décrie dans le .pdf (**dossier code source par chapitre**).
