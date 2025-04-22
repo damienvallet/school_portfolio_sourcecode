@@ -5,7 +5,8 @@ In this repo, you'll find:
 - The final project (**dv-portfolio**)
 - The archive containing all the elements
 
-===
+---
+
 
 # Repo pour le cours IED-L1-IFPartie2
 
