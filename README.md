@@ -9,7 +9,7 @@ In this repo, you'll find:
 ---
 
 
-# Repo pour le cours IED-L1-IFPartie2
+# Repo pour IED Paris 8
 
 ---
 
