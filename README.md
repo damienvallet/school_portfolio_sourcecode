@@ -3,6 +3,8 @@
 
 A responsive, SEO-optimized portfolio built with React, Bootstrap, and modern web standards. This project was developed as part of the *Utilisation d’Ordinateurs en Réseau* course at **Université Paris 8**.
 
+Report can be downloaded here : [report_school_portfolio.pdf](https://github.com/damienvallet/school_portfolio_sourcecode/blob/250d13b0ca103d7166092148febbfb9cae174d50/report_school_portfolio.pdf)
+
 ---
 
 ## 🚀 Features
